@@ -24,10 +24,10 @@ After rebooting, you should run this scripts
 
 ### Update system apps (rpm-ostree), flatpak & distrobox containers with a single command: 
 ```
-flatpak update && distrobox-upgrade --all && rpm-ostree upgrade
+flatpak update -y && distrobox-upgrade --all && rpm-ostree upgrade
 ```
 
 Add alias to your ~/.bash_profile or ~/.zsh_profile
 ```
-alias update=flatpak update && distrobox-upgrade --all && rpm-ostree upgrade
+alias update=flatpak update -y && distrobox-upgrade --all && rpm-ostree upgrade
 ```
