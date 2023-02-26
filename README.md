@@ -3,6 +3,7 @@
 ## Update Fedora Kinoite/Silverblue 
 
 ``` 
-rpm-ostree upgrade -r  
-# Flag -r will reboot your machine when rpm-ostree finishes 
+rpm-ostree upgrade -r
 ```
+\# Flag -r will reboot your machine when rpm-ostree finishes 
+
