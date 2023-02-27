@@ -29,5 +29,5 @@ flatpak update -y && distrobox-upgrade --all && rpm-ostree upgrade
 
 Add alias to your ~/.bash_profile or ~/.zshrc
 ```
-alias update=flatpak update -y && distrobox-upgrade --all && rpm-ostree upgrade
+alias update="flatpak update -y && distrobox-upgrade --all && rpm-ostree upgrade"
 ```
