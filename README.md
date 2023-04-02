@@ -12,6 +12,13 @@ rpm-ostree upgrade -r
 ## Initial setup
 
 After rebooting, you should run this scripts
+
+```
+git clone https://github.com/khaleeldtxi/kinoite/
+cd kinoite
+sudo chmod a+x kinoite.sh flatpak.sh
+```
+
 ```
 ./kinoite.sh
 ```
